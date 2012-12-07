@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><cliente>
+     <Cod_Cliente value="10"/>
+     <COD_OFI value="28"/>
+     <COM value="UNV"/>
+     <ED value="CAS"/>
+     <SX value="100"/>
+     <NIV_EDUC value="50"/>
+     <RENTA value="4000.0"/>
+     <E_CIVIL value="2000.0"/>
+     <VIG value="0.0"/>
+     <TRX_T value="0.5"/>
+     <TRX_T-1 value="0.75"/>
+     <TRX_T-2 value="24"/>
+     <SALDO_T-5 value="48073799,25"/>
+     <SALDO_T-4 value="903165,45"/>
+     <SALDO_T-3 value="808209"/>
+     <SALDO_T-2 value="4365589,05"/>
+     <SALDO_T-1 value="3703754,29"/>
+     <SALDO_T value="2153243,04"/>
+     <REN_T value="0,58"/>
+     <REN_T-1 value="0,85"/>
+     <REN_T-2 value="5,4"/>
+     <REN_T-3 value="0,89"/>
+     <REN_T-4 value="0,02"/>
+     <CERRO value=""/>
+</cliente>

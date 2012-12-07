@@ -1,0 +1,2703 @@
+<object-stream>
+  <TreeModel id="1" serialization="custom">
+    <com.rapidminer.operator.AbstractIOObject>
+      <default>
+        <source>Decision Tree</source>
+      </default>
+    </com.rapidminer.operator.AbstractIOObject>
+    <com.rapidminer.operator.ResultObjectAdapter>
+      <default>
+        <annotations id="2">
+          <keyValueMap id="3"/>
+        </annotations>
+      </default>
+    </com.rapidminer.operator.ResultObjectAdapter>
+    <com.rapidminer.operator.AbstractModel>
+      <default>
+        <headerExampleSet id="4" serialization="custom">
+          <com.rapidminer.operator.ResultObjectAdapter>
+            <default>
+              <annotations id="5">
+                <keyValueMap id="6"/>
+              </annotations>
+            </default>
+          </com.rapidminer.operator.ResultObjectAdapter>
+          <com.rapidminer.example.set.AbstractExampleSet>
+            <default>
+              <idMap id="7"/>
+              <statisticsMap id="8"/>
+            </default>
+          </com.rapidminer.example.set.AbstractExampleSet>
+          <com.rapidminer.example.set.HeaderExampleSet>
+            <default>
+              <attributes class="SimpleAttributes" id="9">
+                <attributes class="linked-list" id="10">
+                  <AttributeRole id="11">
+                    <special>false</special>
+                    <attribute class="PolynominalAttribute" id="12" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="13">
+                            <keyValueMap id="14"/>
+                          </annotations>
+                          <attributeDescription id="15">
+                            <name>COD_OFI</name>
+                            <valueType>1</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>1</index>
+                          </attributeDescription>
+                          <constructionDescription>COD_OFI</constructionDescription>
+                          <statistics class="linked-list" id="16">
+                            <NominalStatistics id="17">
+                              <mode>-1</mode>
+                              <maxCounter>0</maxCounter>
+                            </NominalStatistics>
+                            <UnknownStatistics id="18">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="19"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                      <PolynominalAttribute>
+                        <default>
+                          <nominalMapping class="PolynominalMapping" id="20">
+                            <symbolToIndexMap id="21">
+                              <entry>
+                                <string>35</string>
+                                <int>73</int>
+                              </entry>
+                              <entry>
+                                <string>36</string>
+                                <int>61</int>
+                              </entry>
+                              <entry>
+                                <string>33</string>
+                                <int>112</int>
+                              </entry>
+                              <entry>
+                                <string>34</string>
+                                <int>67</int>
+                              </entry>
+                              <entry>
+                                <string>39</string>
+                                <int>110</int>
+                              </entry>
+                              <entry>
+                                <string>155</string>
+                                <int>98</int>
+                              </entry>
+                              <entry>
+                                <string>37</string>
+                                <int>3</int>
+                              </entry>
+                              <entry>
+                                <string>38</string>
+                                <int>44</int>
+                              </entry>
+                              <entry>
+                                <string>152</string>
+                                <int>115</int>
+                              </entry>
+                              <entry>
+                                <string>151</string>
+                                <int>71</int>
+                              </entry>
+                              <entry>
+                                <string>43</string>
+                                <int>4</int>
+                              </entry>
+                              <entry>
+                                <string>42</string>
+                                <int>39</int>
+                              </entry>
+                              <entry>
+                                <string>41</string>
+                                <int>31</int>
+                              </entry>
+                              <entry>
+                                <string>40</string>
+                                <int>41</int>
+                              </entry>
+                              <entry>
+                                <string>22</string>
+                                <int>14</int>
+                              </entry>
+                              <entry>
+                                <string>23</string>
+                                <int>18</int>
+                              </entry>
+                              <entry>
+                                <string>24</string>
+                                <int>63</int>
+                              </entry>
+                              <entry>
+                                <string>25</string>
+                                <int>15</int>
+                              </entry>
+                              <entry>
+                                <string>26</string>
+                                <int>50</int>
+                              </entry>
+                              <entry>
+                                <string>27</string>
+                                <int>23</int>
+                              </entry>
+                              <entry>
+                                <string>28</string>
+                                <int>10</int>
+                              </entry>
+                              <entry>
+                                <string>29</string>
+                                <int>21</int>
+                              </entry>
+                              <entry>
+                                <string>30</string>
+                                <int>47</int>
+                              </entry>
+                              <entry>
+                                <string>32</string>
+                                <int>55</int>
+                              </entry>
+                              <entry>
+                                <string>31</string>
+                                <int>58</int>
+                              </entry>
+                              <entry>
+                                <string>19</string>
+                                <int>20</int>
+                              </entry>
+                              <entry>
+                                <string>17</string>
+                                <int>75</int>
+                              </entry>
+                              <entry>
+                                <string>18</string>
+                                <int>13</int>
+                              </entry>
+                              <entry>
+                                <string>15</string>
+                                <int>17</int>
+                              </entry>
+                              <entry>
+                                <string>16</string>
+                                <int>9</int>
+                              </entry>
+                              <entry>
+                                <string>13</string>
+                                <int>12</int>
+                              </entry>
+                              <entry>
+                                <string>14</string>
+                                <int>42</int>
+                              </entry>
+                              <entry>
+                                <string>11</string>
+                                <int>64</int>
+                              </entry>
+                              <entry>
+                                <string>12</string>
+                                <int>99</int>
+                              </entry>
+                              <entry>
+                                <string>21</string>
+                                <int>59</int>
+                              </entry>
+                              <entry>
+                                <string>20</string>
+                                <int>24</int>
+                              </entry>
+                              <entry>
+                                <string>108</string>
+                                <int>102</int>
+                              </entry>
+                              <entry>
+                                <string>107</string>
+                                <int>16</int>
+                              </entry>
+                              <entry>
+                                <string>106</string>
+                                <int>77</int>
+                              </entry>
+                              <entry>
+                                <string>105</string>
+                                <int>118</int>
+                              </entry>
+                              <entry>
+                                <string>104</string>
+                                <int>72</int>
+                              </entry>
+                              <entry>
+                                <string>103</string>
+                                <int>66</int>
+                              </entry>
+                              <entry>
+                                <string>102</string>
+                                <int>30</int>
+                              </entry>
+                              <entry>
+                                <string>101</string>
+                                <int>92</int>
+                              </entry>
+                              <entry>
+                                <string>100</string>
+                                <int>97</int>
+                              </entry>
+                              <entry>
+                                <string>98</string>
+                                <int>111</int>
+                              </entry>
+                              <entry>
+                                <string>97</string>
+                                <int>85</int>
+                              </entry>
+                              <entry>
+                                <string>96</string>
+                                <int>89</int>
+                              </entry>
+                              <entry>
+                                <string>95</string>
+                                <int>116</int>
+                              </entry>
+                              <entry>
+                                <string>94</string>
+                                <int>57</int>
+                              </entry>
+                              <entry>
+                                <string>93</string>
+                                <int>104</int>
+                              </entry>
+                              <entry>
+                                <string>92</string>
+                                <int>80</int>
+                              </entry>
+                              <entry>
+                                <string>91</string>
+                                <int>117</int>
+                              </entry>
+                              <entry>
+                                <string>90</string>
+                                <int>27</int>
+                              </entry>
+                              <entry>
+                                <string>10</string>
+                                <int>2</int>
+                              </entry>
+                              <entry>
+                                <string>88</string>
+                                <int>96</int>
+                              </entry>
+                              <entry>
+                                <string>89</string>
+                                <int>126</int>
+                              </entry>
+                              <entry>
+                                <string>116</string>
+                                <int>81</int>
+                              </entry>
+                              <entry>
+                                <string>117</string>
+                                <int>121</int>
+                              </entry>
+                              <entry>
+                                <string>79</string>
+                                <int>53</int>
+                              </entry>
+                              <entry>
+                                <string>78</string>
+                                <int>43</int>
+                              </entry>
+                              <entry>
+                                <string>77</string>
+                                <int>37</int>
+                              </entry>
+                              <entry>
+                                <string>118</string>
+                                <int>83</int>
+                              </entry>
+                              <entry>
+                                <string>82</string>
+                                <int>40</int>
+                              </entry>
+                              <entry>
+                                <string>83</string>
+                                <int>65</int>
+                              </entry>
+                              <entry>
+                                <string>80</string>
+                                <int>76</int>
+                              </entry>
+                              <entry>
+                                <string>81</string>
+                                <int>48</int>
+                              </entry>
+                              <entry>
+                                <string>86</string>
+                                <int>62</int>
+                              </entry>
+                              <entry>
+                                <string>87</string>
+                                <int>107</int>
+                              </entry>
+                              <entry>
+                                <string>247</string>
+                                <int>36</int>
+                              </entry>
+                              <entry>
+                                <string>84</string>
+                                <int>69</int>
+                              </entry>
+                              <entry>
+                                <string>85</string>
+                                <int>108</int>
+                              </entry>
+                              <entry>
+                                <string>125</string>
+                                <int>109</int>
+                              </entry>
+                              <entry>
+                                <string>67</string>
+                                <int>54</int>
+                              </entry>
+                              <entry>
+                                <string>126</string>
+                                <int>101</int>
+                              </entry>
+                              <entry>
+                                <string>66</string>
+                                <int>38</int>
+                              </entry>
+                              <entry>
+                                <string>69</string>
+                                <int>74</int>
+                              </entry>
+                              <entry>
+                                <string>127</string>
+                                <int>93</int>
+                              </entry>
+                              <entry>
+                                <string>68</string>
+                                <int>32</int>
+                              </entry>
+                              <entry>
+                                <string>128</string>
+                                <int>19</int>
+                              </entry>
+                              <entry>
+                                <string>121</string>
+                                <int>125</int>
+                              </entry>
+                              <entry>
+                                <string>122</string>
+                                <int>29</int>
+                              </entry>
+                              <entry>
+                                <string>123</string>
+                                <int>123</int>
+                              </entry>
+                              <entry>
+                                <string>124</string>
+                                <int>103</int>
+                              </entry>
+                              <entry>
+                                <string>129</string>
+                                <int>122</int>
+                              </entry>
+                              <entry>
+                                <string>70</string>
+                                <int>35</int>
+                              </entry>
+                              <entry>
+                                <string>71</string>
+                                <int>46</int>
+                              </entry>
+                              <entry>
+                                <string>120</string>
+                                <int>22</int>
+                              </entry>
+                              <entry>
+                                <string>72</string>
+                                <int>68</int>
+                              </entry>
+                              <entry>
+                                <string>73</string>
+                                <int>94</int>
+                              </entry>
+                              <entry>
+                                <string>74</string>
+                                <int>7</int>
+                              </entry>
+                              <entry>
+                                <string>75</string>
+                                <int>84</int>
+                              </entry>
+                              <entry>
+                                <string>76</string>
+                                <int>78</int>
+                              </entry>
+                              <entry>
+                                <string>134</string>
+                                <int>90</int>
+                              </entry>
+                              <entry>
+                                <string>132</string>
+                                <int>105</int>
+                              </entry>
+                              <entry>
+                                <string>59</string>
+                                <int>0</int>
+                              </entry>
+                              <entry>
+                                <string>138</string>
+                                <int>91</int>
+                              </entry>
+                              <entry>
+                                <string>57</string>
+                                <int>124</int>
+                              </entry>
+                              <entry>
+                                <string>139</string>
+                                <int>114</int>
+                              </entry>
+                              <entry>
+                                <string>56</string>
+                                <int>6</int>
+                              </entry>
+                              <entry>
+                                <string>55</string>
+                                <int>33</int>
+                              </entry>
+                              <entry>
+                                <string>64</string>
+                                <int>52</int>
+                              </entry>
+                              <entry>
+                                <string>65</string>
+                                <int>88</int>
+                              </entry>
+                              <entry>
+                                <string>62</string>
+                                <int>119</int>
+                              </entry>
+                              <entry>
+                                <string>63</string>
+                                <int>60</int>
+                              </entry>
+                              <entry>
+                                <string>131</string>
+                                <int>56</int>
+                              </entry>
+                              <entry>
+                                <string>60</string>
+                                <int>79</int>
+                              </entry>
+                              <entry>
+                                <string>130</string>
+                                <int>8</int>
+                              </entry>
+                              <entry>
+                                <string>61</string>
+                                <int>5</int>
+                              </entry>
+                              <entry>
+                                <string>49</string>
+                                <int>120</int>
+                              </entry>
+                              <entry>
+                                <string>144</string>
+                                <int>45</int>
+                              </entry>
+                              <entry>
+                                <string>48</string>
+                                <int>26</int>
+                              </entry>
+                              <entry>
+                                <string>146</string>
+                                <int>87</int>
+                              </entry>
+                              <entry>
+                                <string>45</string>
+                                <int>95</int>
+                              </entry>
+                              <entry>
+                                <string>148</string>
+                                <int>106</int>
+                              </entry>
+                              <entry>
+                                <string>44</string>
+                                <int>34</int>
+                              </entry>
+                              <entry>
+                                <string>149</string>
+                                <int>113</int>
+                              </entry>
+                              <entry>
+                                <string>47</string>
+                                <int>1</int>
+                              </entry>
+                              <entry>
+                                <string>46</string>
+                                <int>25</int>
+                              </entry>
+                              <entry>
+                                <string>51</string>
+                                <int>86</int>
+                              </entry>
+                              <entry>
+                                <string>52</string>
+                                <int>28</int>
+                              </entry>
+                              <entry>
+                                <string>53</string>
+                                <int>51</int>
+                              </entry>
+                              <entry>
+                                <string>54</string>
+                                <int>11</int>
+                              </entry>
+                              <entry>
+                                <string>140</string>
+                                <int>70</int>
+                              </entry>
+                              <entry>
+                                <string>142</string>
+                                <int>82</int>
+                              </entry>
+                              <entry>
+                                <string>50</string>
+                                <int>100</int>
+                              </entry>
+                              <entry>
+                                <string>141</string>
+                                <int>49</int>
+                              </entry>
+                            </symbolToIndexMap>
+                            <indexToSymbolMap id="22">
+                              <string>59</string>
+                              <string>47</string>
+                              <string>10</string>
+                              <string>37</string>
+                              <string>43</string>
+                              <string>61</string>
+                              <string>56</string>
+                              <string>74</string>
+                              <string>130</string>
+                              <string>16</string>
+                              <string>28</string>
+                              <string>54</string>
+                              <string>13</string>
+                              <string>18</string>
+                              <string>22</string>
+                              <string>25</string>
+                              <string>107</string>
+                              <string>15</string>
+                              <string>23</string>
+                              <string>128</string>
+                              <string>19</string>
+                              <string>29</string>
+                              <string>120</string>
+                              <string>27</string>
+                              <string>20</string>
+                              <string>46</string>
+                              <string>48</string>
+                              <string>90</string>
+                              <string>52</string>
+                              <string>122</string>
+                              <string>102</string>
+                              <string>41</string>
+                              <string>68</string>
+                              <string>55</string>
+                              <string>44</string>
+                              <string>70</string>
+                              <string>247</string>
+                              <string>77</string>
+                              <string>66</string>
+                              <string>42</string>
+                              <string>82</string>
+                              <string>40</string>
+                              <string>14</string>
+                              <string>78</string>
+                              <string>38</string>
+                              <string>144</string>
+                              <string>71</string>
+                              <string>30</string>
+                              <string>81</string>
+                              <string>141</string>
+                              <string>26</string>
+                              <string>53</string>
+                              <string>64</string>
+                              <string>79</string>
+                              <string>67</string>
+                              <string>32</string>
+                              <string>131</string>
+                              <string>94</string>
+                              <string>31</string>
+                              <string>21</string>
+                              <string>63</string>
+                              <string>36</string>
+                              <string>86</string>
+                              <string>24</string>
+                              <string>11</string>
+                              <string>83</string>
+                              <string>103</string>
+                              <string>34</string>
+                              <string>72</string>
+                              <string>84</string>
+                              <string>140</string>
+                              <string>151</string>
+                              <string>104</string>
+                              <string>35</string>
+                              <string>69</string>
+                              <string>17</string>
+                              <string>80</string>
+                              <string>106</string>
+                              <string>76</string>
+                              <string>60</string>
+                              <string>92</string>
+                              <string>116</string>
+                              <string>142</string>
+                              <string>118</string>
+                              <string>75</string>
+                              <string>97</string>
+                              <string>51</string>
+                              <string>146</string>
+                              <string>65</string>
+                              <string>96</string>
+                              <string>134</string>
+                              <string>138</string>
+                              <string>101</string>
+                              <string>127</string>
+                              <string>73</string>
+                              <string>45</string>
+                              <string>88</string>
+                              <string>100</string>
+                              <string>155</string>
+                              <string>12</string>
+                              <string>50</string>
+                              <string>126</string>
+                              <string>108</string>
+                              <string>124</string>
+                              <string>93</string>
+                              <string>132</string>
+                              <string>148</string>
+                              <string>87</string>
+                              <string>85</string>
+                              <string>125</string>
+                              <string>39</string>
+                              <string>98</string>
+                              <string>33</string>
+                              <string>149</string>
+                              <string>139</string>
+                              <string>152</string>
+                              <string>95</string>
+                              <string>91</string>
+                              <string>105</string>
+                              <string>62</string>
+                              <string>49</string>
+                              <string>117</string>
+                              <string>129</string>
+                              <string>123</string>
+                              <string>57</string>
+                              <string>121</string>
+                              <string>89</string>
+                            </indexToSymbolMap>
+                          </nominalMapping>
+                        </default>
+                      </PolynominalAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="23">
+                    <special>false</special>
+                    <attribute class="PolynominalAttribute" id="24" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="25">
+                            <keyValueMap id="26"/>
+                          </annotations>
+                          <attributeDescription id="27">
+                            <name>COM</name>
+                            <valueType>1</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>2</index>
+                          </attributeDescription>
+                          <constructionDescription>COM</constructionDescription>
+                          <statistics class="linked-list" id="28">
+                            <NominalStatistics id="29">
+                              <mode>-1</mode>
+                              <maxCounter>0</maxCounter>
+                            </NominalStatistics>
+                            <UnknownStatistics id="30">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="31"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                      <PolynominalAttribute>
+                        <default>
+                          <nominalMapping class="PolynominalMapping" id="32">
+                            <symbolToIndexMap id="33">
+                              <entry>
+                                <string>35</string>
+                                <int>64</int>
+                              </entry>
+                              <entry>
+                                <string>280</string>
+                                <int>62</int>
+                              </entry>
+                              <entry>
+                                <string>157</string>
+                                <int>6</int>
+                              </entry>
+                              <entry>
+                                <string>284</string>
+                                <int>5</int>
+                              </entry>
+                              <entry>
+                                <string>151</string>
+                                <int>126</int>
+                              </entry>
+                              <entry>
+                                <string>204</string>
+                                <int>123</int>
+                              </entry>
+                              <entry>
+                                <string>201</string>
+                                <int>114</int>
+                              </entry>
+                              <entry>
+                                <string>22</string>
+                                <int>75</int>
+                              </entry>
+                              <entry>
+                                <string>23</string>
+                                <int>137</int>
+                              </entry>
+                              <entry>
+                                <string>25</string>
+                                <int>32</int>
+                              </entry>
+                              <entry>
+                                <string>272</string>
+                                <int>7</int>
+                              </entry>
+                              <entry>
+                                <string>27</string>
+                                <int>116</int>
+                              </entry>
+                              <entry>
+                                <string>167</string>
+                                <int>100</int>
+                              </entry>
+                              <entry>
+                                <string>29</string>
+                                <int>39</int>
+                              </entry>
+                              <entry>
+                                <string>1</string>
+                                <int>12</int>
+                              </entry>
+                              <entry>
+                                <string>164</string>
+                                <int>14</int>
+                              </entry>
+                              <entry>
+                                <string>279</string>
+                                <int>103</int>
+                              </entry>
+                              <entry>
+                                <string>5</string>
+                                <int>2</int>
+                              </entry>
+                              <entry>
+                                <string>31</string>
+                                <int>18</int>
+                              </entry>
+                              <entry>
+                                <string>212</string>
+                                <int>92</int>
+                              </entry>
+                              <entry>
+                                <string>316</string>
+                                <int>99</int>
+                              </entry>
+                              <entry>
+                                <string>213</string>
+                                <int>23</int>
+                              </entry>
+                              <entry>
+                                <string>317</string>
+                                <int>98</int>
+                              </entry>
+                              <entry>
+                                <string>314</string>
+                                <int>41</int>
+                              </entry>
+                              <entry>
+                                <string>16</string>
+                                <int>10</int>
+                              </entry>
+                              <entry>
+                                <string>13</string>
+                                <int>56</int>
+                              </entry>
+                              <entry>
+                                <string>11</string>
+                                <int>55</int>
+                              </entry>
+                              <entry>
+                                <string>170</string>
+                                <int>138</int>
+                              </entry>
+                              <entry>
+                                <string>513</string>
+                                <int>113</int>
+                              </entry>
+                              <entry>
+                                <string>21</string>
+                                <int>57</int>
+                              </entry>
+                              <entry>
+                                <string>20</string>
+                                <int>40</int>
+                              </entry>
+                              <entry>
+                                <string>511</string>
+                                <int>104</int>
+                              </entry>
+                              <entry>
+                                <string>510</string>
+                                <int>121</int>
+                              </entry>
+                              <entry>
+                                <string>109</string>
+                                <int>125</int>
+                              </entry>
+                              <entry>
+                                <string>108</string>
+                                <int>72</int>
+                              </entry>
+                              <entry>
+                                <string>107</string>
+                                <int>124</int>
+                              </entry>
+                              <entry>
+                                <string>173</string>
+                                <int>25</int>
+                              </entry>
+                              <entry>
+                                <string>106</string>
+                                <int>42</int>
+                              </entry>
+                              <entry>
+                                <string>105</string>
+                                <int>19</int>
+                              </entry>
+                              <entry>
+                                <string>104</string>
+                                <int>83</int>
+                              </entry>
+                              <entry>
+                                <string>103</string>
+                                <int>73</int>
+                              </entry>
+                              <entry>
+                                <string>99</string>
+                                <int>106</int>
+                              </entry>
+                              <entry>
+                                <string>102</string>
+                                <int>80</int>
+                              </entry>
+                              <entry>
+                                <string>101</string>
+                                <int>111</int>
+                              </entry>
+                              <entry>
+                                <string>516</string>
+                                <int>74</int>
+                              </entry>
+                              <entry>
+                                <string>100</string>
+                                <int>38</int>
+                              </entry>
+                              <entry>
+                                <string>98</string>
+                                <int>24</int>
+                              </entry>
+                              <entry>
+                                <string>97</string>
+                                <int>65</int>
+                              </entry>
+                              <entry>
+                                <string>222</string>
+                                <int>131</int>
+                              </entry>
+                              <entry>
+                                <string>96</string>
+                                <int>109</int>
+                              </entry>
+                              <entry>
+                                <string>223</string>
+                                <int>119</int>
+                              </entry>
+                              <entry>
+                                <string>95</string>
+                                <int>59</int>
+                              </entry>
+                              <entry>
+                                <string>94</string>
+                                <int>63</int>
+                              </entry>
+                              <entry>
+                                <string>93</string>
+                                <int>20</int>
+                              </entry>
+                              <entry>
+                                <string>329</string>
+                                <int>130</int>
+                              </entry>
+                              <entry>
+                                <string>92</string>
+                                <int>30</int>
+                              </entry>
+                              <entry>
+                                <string>226</string>
+                                <int>16</int>
+                              </entry>
+                              <entry>
+                                <string>91</string>
+                                <int>35</int>
+                              </entry>
+                              <entry>
+                                <string>227</string>
+                                <int>66</int>
+                              </entry>
+                              <entry>
+                                <string>90</string>
+                                <int>8</int>
+                              </entry>
+                              <entry>
+                                <string>324</string>
+                                <int>37</int>
+                              </entry>
+                              <entry>
+                                <string>296</string>
+                                <int>115</int>
+                              </entry>
+                              <entry>
+                                <string>189</string>
+                                <int>117</int>
+                              </entry>
+                              <entry>
+                                <string>326</string>
+                                <int>60</int>
+                              </entry>
+                              <entry>
+                                <string>292</string>
+                                <int>87</int>
+                              </entry>
+                              <entry>
+                                <string>291</string>
+                                <int>68</int>
+                              </entry>
+                              <entry>
+                                <string>10</string>
+                                <int>85</int>
+                              </entry>
+                              <entry>
+                                <string>182</string>
+                                <int>33</int>
+                              </entry>
+                              <entry>
+                                <string>298</string>
+                                <int>107</int>
+                              </entry>
+                              <entry>
+                                <string>88</string>
+                                <int>0</int>
+                              </entry>
+                              <entry>
+                                <string>89</string>
+                                <int>9</int>
+                              </entry>
+                              <entry>
+                                <string>117</string>
+                                <int>31</int>
+                              </entry>
+                              <entry>
+                                <string>79</string>
+                                <int>69</int>
+                              </entry>
+                              <entry>
+                                <string>115</string>
+                                <int>36</int>
+                              </entry>
+                              <entry>
+                                <string>77</string>
+                                <int>88</int>
+                              </entry>
+                              <entry>
+                                <string>112</string>
+                                <int>89</int>
+                              </entry>
+                              <entry>
+                                <string>110</string>
+                                <int>61</int>
+                              </entry>
+                              <entry>
+                                <string>111</string>
+                                <int>95</int>
+                              </entry>
+                              <entry>
+                                <string>194</string>
+                                <int>96</int>
+                              </entry>
+                              <entry>
+                                <string>193</string>
+                                <int>46</int>
+                              </entry>
+                              <entry>
+                                <string>118</string>
+                                <int>11</int>
+                              </entry>
+                              <entry>
+                                <string>119</string>
+                                <int>48</int>
+                              </entry>
+                              <entry>
+                                <string>82</string>
+                                <int>82</int>
+                              </entry>
+                              <entry>
+                                <string>83</string>
+                                <int>77</int>
+                              </entry>
+                              <entry>
+                                <string>80</string>
+                                <int>21</int>
+                              </entry>
+                              <entry>
+                                <string>81</string>
+                                <int>3</int>
+                              </entry>
+                              <entry>
+                                <string>86</string>
+                                <int>13</int>
+                              </entry>
+                              <entry>
+                                <string>87</string>
+                                <int>51</int>
+                              </entry>
+                              <entry>
+                                <string>84</string>
+                                <int>78</int>
+                              </entry>
+                              <entry>
+                                <string>85</string>
+                                <int>15</int>
+                              </entry>
+                              <entry>
+                                <string>67</string>
+                                <int>29</int>
+                              </entry>
+                              <entry>
+                                <string>66</string>
+                                <int>1</int>
+                              </entry>
+                              <entry>
+                                <string>126</string>
+                                <int>79</int>
+                              </entry>
+                              <entry>
+                                <string>127</string>
+                                <int>139</int>
+                              </entry>
+                              <entry>
+                                <string>300</string>
+                                <int>49</int>
+                              </entry>
+                              <entry>
+                                <string>69</string>
+                                <int>76</int>
+                              </entry>
+                              <entry>
+                                <string>504</string>
+                                <int>97</int>
+                              </entry>
+                              <entry>
+                                <string>128</string>
+                                <int>90</int>
+                              </entry>
+                              <entry>
+                                <string>68</string>
+                                <int>94</int>
+                              </entry>
+                              <entry>
+                                <string>509</string>
+                                <int>136</int>
+                              </entry>
+                              <entry>
+                                <string>302</string>
+                                <int>132</int>
+                              </entry>
+                              <entry>
+                                <string>301</string>
+                                <int>47</int>
+                              </entry>
+                              <entry>
+                                <string>122</string>
+                                <int>93</int>
+                              </entry>
+                              <entry>
+                                <string>123</string>
+                                <int>105</int>
+                              </entry>
+                              <entry>
+                                <string>303</string>
+                                <int>120</int>
+                              </entry>
+                              <entry>
+                                <string>124</string>
+                                <int>112</int>
+                              </entry>
+                              <entry>
+                                <string>230</string>
+                                <int>110</int>
+                              </entry>
+                              <entry>
+                                <string>306</string>
+                                <int>101</int>
+                              </entry>
+                              <entry>
+                                <string>502</string>
+                                <int>70</int>
+                              </entry>
+                              <entry>
+                                <string>70</string>
+                                <int>4</int>
+                              </entry>
+                              <entry>
+                                <string>120</string>
+                                <int>50</int>
+                              </entry>
+                              <entry>
+                                <string>71</string>
+                                <int>52</int>
+                              </entry>
+                              <entry>
+                                <string>234</string>
+                                <int>67</int>
+                              </entry>
+                              <entry>
+                                <string>72</string>
+                                <int>133</int>
+                              </entry>
+                              <entry>
+                                <string>74</string>
+                                <int>54</int>
+                              </entry>
+                              <entry>
+                                <string>75</string>
+                                <int>135</int>
+                              </entry>
+                              <entry>
+                                <string>135</string>
+                                <int>91</int>
+                              </entry>
+                              <entry>
+                                <string>260</string>
+                                <int>27</int>
+                              </entry>
+                              <entry>
+                                <string>59</string>
+                                <int>44</int>
+                              </entry>
+                              <entry>
+                                <string>261</string>
+                                <int>26</int>
+                              </entry>
+                              <entry>
+                                <string>138</string>
+                                <int>128</int>
+                              </entry>
+                              <entry>
+                                <string>55</string>
+                                <int>53</int>
+                              </entry>
+                              <entry>
+                                <string>64</string>
+                                <int>84</int>
+                              </entry>
+                              <entry>
+                                <string>62</string>
+                                <int>127</int>
+                              </entry>
+                              <entry>
+                                <string>131</string>
+                                <int>22</int>
+                              </entry>
+                              <entry>
+                                <string>266</string>
+                                <int>108</int>
+                              </entry>
+                              <entry>
+                                <string>61</string>
+                                <int>45</int>
+                              </entry>
+                              <entry>
+                                <string>130</string>
+                                <int>34</int>
+                              </entry>
+                              <entry>
+                                <string>265</string>
+                                <int>129</int>
+                              </entry>
+                              <entry>
+                                <string>49</string>
+                                <int>17</int>
+                              </entry>
+                              <entry>
+                                <string>143</string>
+                                <int>71</int>
+                              </entry>
+                              <entry>
+                                <string>146</string>
+                                <int>81</int>
+                              </entry>
+                              <entry>
+                                <string>148</string>
+                                <int>43</int>
+                              </entry>
+                              <entry>
+                                <string>149</string>
+                                <int>122</int>
+                              </entry>
+                              <entry>
+                                <string>52</string>
+                                <int>134</int>
+                              </entry>
+                              <entry>
+                                <string>53</string>
+                                <int>58</int>
+                              </entry>
+                              <entry>
+                                <string>254</string>
+                                <int>28</int>
+                              </entry>
+                              <entry>
+                                <string>253</string>
+                                <int>102</int>
+                              </entry>
+                              <entry>
+                                <string>141</string>
+                                <int>118</int>
+                              </entry>
+                              <entry>
+                                <string>50</string>
+                                <int>86</int>
+                              </entry>
+                            </symbolToIndexMap>
+                            <indexToSymbolMap id="34">
+                              <string>88</string>
+                              <string>66</string>
+                              <string>5</string>
+                              <string>81</string>
+                              <string>70</string>
+                              <string>284</string>
+                              <string>157</string>
+                              <string>272</string>
+                              <string>90</string>
+                              <string>89</string>
+                              <string>16</string>
+                              <string>118</string>
+                              <string>1</string>
+                              <string>86</string>
+                              <string>164</string>
+                              <string>85</string>
+                              <string>226</string>
+                              <string>49</string>
+                              <string>31</string>
+                              <string>105</string>
+                              <string>93</string>
+                              <string>80</string>
+                              <string>131</string>
+                              <string>213</string>
+                              <string>98</string>
+                              <string>173</string>
+                              <string>261</string>
+                              <string>260</string>
+                              <string>254</string>
+                              <string>67</string>
+                              <string>92</string>
+                              <string>117</string>
+                              <string>25</string>
+                              <string>182</string>
+                              <string>130</string>
+                              <string>91</string>
+                              <string>115</string>
+                              <string>324</string>
+                              <string>100</string>
+                              <string>29</string>
+                              <string>20</string>
+                              <string>314</string>
+                              <string>106</string>
+                              <string>148</string>
+                              <string>59</string>
+                              <string>61</string>
+                              <string>193</string>
+                              <string>301</string>
+                              <string>119</string>
+                              <string>300</string>
+                              <string>120</string>
+                              <string>87</string>
+                              <string>71</string>
+                              <string>55</string>
+                              <string>74</string>
+                              <string>11</string>
+                              <string>13</string>
+                              <string>21</string>
+                              <string>53</string>
+                              <string>95</string>
+                              <string>326</string>
+                              <string>110</string>
+                              <string>280</string>
+                              <string>94</string>
+                              <string>35</string>
+                              <string>97</string>
+                              <string>227</string>
+                              <string>234</string>
+                              <string>291</string>
+                              <string>79</string>
+                              <string>502</string>
+                              <string>143</string>
+                              <string>108</string>
+                              <string>103</string>
+                              <string>516</string>
+                              <string>22</string>
+                              <string>69</string>
+                              <string>83</string>
+                              <string>84</string>
+                              <string>126</string>
+                              <string>102</string>
+                              <string>146</string>
+                              <string>82</string>
+                              <string>104</string>
+                              <string>64</string>
+                              <string>10</string>
+                              <string>50</string>
+                              <string>292</string>
+                              <string>77</string>
+                              <string>112</string>
+                              <string>128</string>
+                              <string>135</string>
+                              <string>212</string>
+                              <string>122</string>
+                              <string>68</string>
+                              <string>111</string>
+                              <string>194</string>
+                              <string>504</string>
+                              <string>317</string>
+                              <string>316</string>
+                              <string>167</string>
+                              <string>306</string>
+                              <string>253</string>
+                              <string>279</string>
+                              <string>511</string>
+                              <string>123</string>
+                              <string>99</string>
+                              <string>298</string>
+                              <string>266</string>
+                              <string>96</string>
+                              <string>230</string>
+                              <string>101</string>
+                              <string>124</string>
+                              <string>513</string>
+                              <string>201</string>
+                              <string>296</string>
+                              <string>27</string>
+                              <string>189</string>
+                              <string>141</string>
+                              <string>223</string>
+                              <string>303</string>
+                              <string>510</string>
+                              <string>149</string>
+                              <string>204</string>
+                              <string>107</string>
+                              <string>109</string>
+                              <string>151</string>
+                              <string>62</string>
+                              <string>138</string>
+                              <string>265</string>
+                              <string>329</string>
+                              <string>222</string>
+                              <string>302</string>
+                              <string>72</string>
+                              <string>52</string>
+                              <string>75</string>
+                              <string>509</string>
+                              <string>23</string>
+                              <string>170</string>
+                              <string>127</string>
+                            </indexToSymbolMap>
+                          </nominalMapping>
+                        </default>
+                      </PolynominalAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="35">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="36" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="37">
+                            <keyValueMap id="38"/>
+                          </annotations>
+                          <attributeDescription id="39">
+                            <name>ED</name>
+                            <valueType>3</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>3</index>
+                          </attributeDescription>
+                          <constructionDescription>ED</constructionDescription>
+                          <statistics class="linked-list" id="40">
+                            <NumericalStatistics id="41">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="42">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="43">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="44">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="45"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="46">
+                    <special>false</special>
+                    <attribute class="BinominalAttribute" id="47" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="48">
+                            <keyValueMap id="49"/>
+                          </annotations>
+                          <attributeDescription id="50">
+                            <name>SX</name>
+                            <valueType>6</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>4</index>
+                          </attributeDescription>
+                          <constructionDescription>SX</constructionDescription>
+                          <statistics class="linked-list" id="51">
+                            <NominalStatistics id="52">
+                              <mode>-1</mode>
+                              <maxCounter>0</maxCounter>
+                            </NominalStatistics>
+                            <UnknownStatistics id="53">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="54"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                      <BinominalAttribute>
+                        <default>
+                          <nominalMapping class="BinominalMapping" id="55">
+                            <firstValue>M       </firstValue>
+                            <secondValue>F       </secondValue>
+                          </nominalMapping>
+                        </default>
+                      </BinominalAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="56">
+                    <special>false</special>
+                    <attribute class="PolynominalAttribute" id="57" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="58">
+                            <keyValueMap id="59"/>
+                          </annotations>
+                          <attributeDescription id="60">
+                            <name>NIV_EDUC</name>
+                            <valueType>7</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>5</index>
+                          </attributeDescription>
+                          <constructionDescription>NIV_EDUC</constructionDescription>
+                          <statistics class="linked-list" id="61">
+                            <NominalStatistics id="62">
+                              <mode>-1</mode>
+                              <maxCounter>0</maxCounter>
+                            </NominalStatistics>
+                            <UnknownStatistics id="63">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="64"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                      <PolynominalAttribute>
+                        <default>
+                          <nominalMapping class="PolynominalMapping" id="65">
+                            <symbolToIndexMap id="66">
+                              <entry>
+                                <string>BAS     </string>
+                                <int>3</int>
+                              </entry>
+                              <entry>
+                                <string>MED     </string>
+                                <int>1</int>
+                              </entry>
+                              <entry>
+                                <string>TEC     </string>
+                                <int>2</int>
+                              </entry>
+                              <entry>
+                                <string>UNV     </string>
+                                <int>0</int>
+                              </entry>
+                            </symbolToIndexMap>
+                            <indexToSymbolMap id="67">
+                              <string>UNV     </string>
+                              <string>MED     </string>
+                              <string>TEC     </string>
+                              <string>BAS     </string>
+                            </indexToSymbolMap>
+                          </nominalMapping>
+                        </default>
+                      </PolynominalAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="68">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="69" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="70">
+                            <keyValueMap id="71"/>
+                          </annotations>
+                          <attributeDescription id="72">
+                            <name>RENTA</name>
+                            <valueType>3</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>6</index>
+                          </attributeDescription>
+                          <constructionDescription>RENTA</constructionDescription>
+                          <statistics class="linked-list" id="73">
+                            <NumericalStatistics id="74">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="75">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="76">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="77">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="78"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="79">
+                    <special>false</special>
+                    <attribute class="PolynominalAttribute" id="80" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="81">
+                            <keyValueMap id="82"/>
+                          </annotations>
+                          <attributeDescription id="83">
+                            <name>E_CIVIL</name>
+                            <valueType>7</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>7</index>
+                          </attributeDescription>
+                          <constructionDescription>E_CIVIL</constructionDescription>
+                          <statistics class="linked-list" id="84">
+                            <NominalStatistics id="85">
+                              <mode>-1</mode>
+                              <maxCounter>0</maxCounter>
+                            </NominalStatistics>
+                            <UnknownStatistics id="86">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="87"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                      <PolynominalAttribute>
+                        <default>
+                          <nominalMapping class="PolynominalMapping" id="88">
+                            <symbolToIndexMap id="89">
+                              <entry>
+                                <string>SOL     </string>
+                                <int>1</int>
+                              </entry>
+                              <entry>
+                                <string>SEP     </string>
+                                <int>3</int>
+                              </entry>
+                              <entry>
+                                <string>VIU     </string>
+                                <int>2</int>
+                              </entry>
+                              <entry>
+                                <string>CAS     </string>
+                                <int>0</int>
+                              </entry>
+                            </symbolToIndexMap>
+                            <indexToSymbolMap id="90">
+                              <string>CAS     </string>
+                              <string>SOL     </string>
+                              <string>VIU     </string>
+                              <string>SEP     </string>
+                            </indexToSymbolMap>
+                          </nominalMapping>
+                        </default>
+                      </PolynominalAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="91">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="92" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="93">
+                            <keyValueMap id="94"/>
+                          </annotations>
+                          <attributeDescription id="95">
+                            <name>VIG</name>
+                            <valueType>3</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>8</index>
+                          </attributeDescription>
+                          <constructionDescription>VIG</constructionDescription>
+                          <statistics class="linked-list" id="96">
+                            <NumericalStatistics id="97">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="98">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="99">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="100">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="101"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="102">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="103" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="104">
+                            <keyValueMap id="105"/>
+                          </annotations>
+                          <attributeDescription id="106">
+                            <name>TRX_T</name>
+                            <valueType>3</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>9</index>
+                          </attributeDescription>
+                          <constructionDescription>TRX_T</constructionDescription>
+                          <statistics class="linked-list" id="107">
+                            <NumericalStatistics id="108">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="109">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="110">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="111">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="112"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="113">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="114" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="115">
+                            <keyValueMap id="116"/>
+                          </annotations>
+                          <attributeDescription id="117">
+                            <name>TRX_T-1</name>
+                            <valueType>3</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>10</index>
+                          </attributeDescription>
+                          <constructionDescription>TRX_T-1</constructionDescription>
+                          <statistics class="linked-list" id="118">
+                            <NumericalStatistics id="119">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="120">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="121">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="122">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="123"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="124">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="125" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="126">
+                            <keyValueMap id="127"/>
+                          </annotations>
+                          <attributeDescription id="128">
+                            <name>TRX_T-2</name>
+                            <valueType>3</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>11</index>
+                          </attributeDescription>
+                          <constructionDescription>TRX_T-2</constructionDescription>
+                          <statistics class="linked-list" id="129">
+                            <NumericalStatistics id="130">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="131">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="132">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="133">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="134"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="135">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="136" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="137">
+                            <keyValueMap id="138"/>
+                          </annotations>
+                          <attributeDescription id="139">
+                            <name>SALDO_T-5</name>
+                            <valueType>2</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>12</index>
+                          </attributeDescription>
+                          <constructionDescription>SALDO_T-5</constructionDescription>
+                          <statistics class="linked-list" id="140">
+                            <NumericalStatistics id="141">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="142">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="143">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="144">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="145"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="146">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="147" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="148">
+                            <keyValueMap id="149"/>
+                          </annotations>
+                          <attributeDescription id="150">
+                            <name>SALDO_T-4</name>
+                            <valueType>2</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>13</index>
+                          </attributeDescription>
+                          <constructionDescription>SALDO_T-4</constructionDescription>
+                          <statistics class="linked-list" id="151">
+                            <NumericalStatistics id="152">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="153">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="154">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="155">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="156"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="157">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="158" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="159">
+                            <keyValueMap id="160"/>
+                          </annotations>
+                          <attributeDescription id="161">
+                            <name>SALDO_T-3</name>
+                            <valueType>2</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>14</index>
+                          </attributeDescription>
+                          <constructionDescription>SALDO_T-3</constructionDescription>
+                          <statistics class="linked-list" id="162">
+                            <NumericalStatistics id="163">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="164">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="165">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="166">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="167"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="168">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="169" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="170">
+                            <keyValueMap id="171"/>
+                          </annotations>
+                          <attributeDescription id="172">
+                            <name>SALDO_T-2</name>
+                            <valueType>2</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>15</index>
+                          </attributeDescription>
+                          <constructionDescription>SALDO_T-2</constructionDescription>
+                          <statistics class="linked-list" id="173">
+                            <NumericalStatistics id="174">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="175">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="176">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="177">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="178"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="179">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="180" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="181">
+                            <keyValueMap id="182"/>
+                          </annotations>
+                          <attributeDescription id="183">
+                            <name>SALDO_T-1</name>
+                            <valueType>2</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>16</index>
+                          </attributeDescription>
+                          <constructionDescription>SALDO_T-1</constructionDescription>
+                          <statistics class="linked-list" id="184">
+                            <NumericalStatistics id="185">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="186">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="187">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="188">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="189"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="190">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="191" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="192">
+                            <keyValueMap id="193"/>
+                          </annotations>
+                          <attributeDescription id="194">
+                            <name>SALDO_T</name>
+                            <valueType>2</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>17</index>
+                          </attributeDescription>
+                          <constructionDescription>SALDO_T</constructionDescription>
+                          <statistics class="linked-list" id="195">
+                            <NumericalStatistics id="196">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="197">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="198">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="199">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="200"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="201">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="202" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="203">
+                            <keyValueMap id="204"/>
+                          </annotations>
+                          <attributeDescription id="205">
+                            <name>REN_T</name>
+                            <valueType>2</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>18</index>
+                          </attributeDescription>
+                          <constructionDescription>REN_T</constructionDescription>
+                          <statistics class="linked-list" id="206">
+                            <NumericalStatistics id="207">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="208">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="209">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="210">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="211"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="212">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="213" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="214">
+                            <keyValueMap id="215"/>
+                          </annotations>
+                          <attributeDescription id="216">
+                            <name>REN_T-1</name>
+                            <valueType>2</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>19</index>
+                          </attributeDescription>
+                          <constructionDescription>REN_T-1</constructionDescription>
+                          <statistics class="linked-list" id="217">
+                            <NumericalStatistics id="218">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="219">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="220">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="221">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="222"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="223">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="224" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="225">
+                            <keyValueMap id="226"/>
+                          </annotations>
+                          <attributeDescription id="227">
+                            <name>REN_T-2</name>
+                            <valueType>2</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>20</index>
+                          </attributeDescription>
+                          <constructionDescription>REN_T-2</constructionDescription>
+                          <statistics class="linked-list" id="228">
+                            <NumericalStatistics id="229">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="230">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="231">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="232">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="233"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="234">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="235" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="236">
+                            <keyValueMap id="237"/>
+                          </annotations>
+                          <attributeDescription id="238">
+                            <name>REN_T-3</name>
+                            <valueType>2</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>21</index>
+                          </attributeDescription>
+                          <constructionDescription>REN_T-3</constructionDescription>
+                          <statistics class="linked-list" id="239">
+                            <NumericalStatistics id="240">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="241">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="242">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="243">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="244"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="245">
+                    <special>false</special>
+                    <attribute class="NumericalAttribute" id="246" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="247">
+                            <keyValueMap id="248"/>
+                          </annotations>
+                          <attributeDescription id="249">
+                            <name>REN_T-4</name>
+                            <valueType>2</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>22</index>
+                          </attributeDescription>
+                          <constructionDescription>REN_T-4</constructionDescription>
+                          <statistics class="linked-list" id="250">
+                            <NumericalStatistics id="251">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="252">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="253">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="254">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="255"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="256">
+                    <special>true</special>
+                    <specialName>id</specialName>
+                    <attribute class="NumericalAttribute" id="257" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="258">
+                            <keyValueMap id="259"/>
+                          </annotations>
+                          <attributeDescription id="260">
+                            <name>Cod_Cliente</name>
+                            <valueType>3</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>0</index>
+                          </attributeDescription>
+                          <constructionDescription>Cod_Cliente</constructionDescription>
+                          <statistics class="linked-list" id="261">
+                            <NumericalStatistics id="262">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <valueCounter>0</valueCounter>
+                            </NumericalStatistics>
+                            <WeightedNumericalStatistics id="263">
+                              <sum>0.0</sum>
+                              <squaredSum>0.0</squaredSum>
+                              <totalWeight>0.0</totalWeight>
+                              <count>0.0</count>
+                            </WeightedNumericalStatistics>
+                            <com.rapidminer.example.MinMaxStatistics id="264">
+                              <minimum>Infinity</minimum>
+                              <maximum>-Infinity</maximum>
+                            </com.rapidminer.example.MinMaxStatistics>
+                            <UnknownStatistics id="265">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="266"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                    </attribute>
+                  </AttributeRole>
+                  <AttributeRole id="267">
+                    <special>true</special>
+                    <specialName>label</specialName>
+                    <attribute class="PolynominalAttribute" id="268" serialization="custom">
+                      <com.rapidminer.example.table.AbstractAttribute>
+                        <default>
+                          <annotations id="269">
+                            <keyValueMap id="270"/>
+                          </annotations>
+                          <attributeDescription id="271">
+                            <name>CERRO</name>
+                            <valueType>1</valueType>
+                            <blockType>1</blockType>
+                            <defaultValue>0.0</defaultValue>
+                            <index>23</index>
+                          </attributeDescription>
+                          <constructionDescription>CERRO</constructionDescription>
+                          <statistics class="linked-list" id="272">
+                            <NominalStatistics id="273">
+                              <mode>-1</mode>
+                              <maxCounter>0</maxCounter>
+                            </NominalStatistics>
+                            <UnknownStatistics id="274">
+                              <unknownCounter>0</unknownCounter>
+                            </UnknownStatistics>
+                          </statistics>
+                          <transformations id="275"/>
+                        </default>
+                      </com.rapidminer.example.table.AbstractAttribute>
+                      <PolynominalAttribute>
+                        <default>
+                          <nominalMapping class="PolynominalMapping" id="276">
+                            <symbolToIndexMap id="277">
+                              <entry>
+                                <string>1</string>
+                                <int>1</int>
+                              </entry>
+                              <entry>
+                                <string>0</string>
+                                <int>0</int>
+                              </entry>
+                            </symbolToIndexMap>
+                            <indexToSymbolMap id="278">
+                              <string>0</string>
+                              <string>1</string>
+                            </indexToSymbolMap>
+                          </nominalMapping>
+                        </default>
+                      </PolynominalAttribute>
+                    </attribute>
+                  </AttributeRole>
+                </attributes>
+              </attributes>
+            </default>
+          </com.rapidminer.example.set.HeaderExampleSet>
+        </headerExampleSet>
+      </default>
+    </com.rapidminer.operator.AbstractModel>
+    <TreeModel>
+      <default>
+        <root id="279">
+          <children class="linked-list" id="280">
+            <com.rapidminer.operator.learner.tree.Edge id="281">
+              <condition class="com.rapidminer.operator.learner.tree.GreaterSplitCondition" id="282">
+                <attributeName>SALDO_T</attributeName>
+                <value>1511.65</value>
+              </condition>
+              <child id="283">
+                <children class="linked-list" id="284">
+                  <com.rapidminer.operator.learner.tree.Edge id="285">
+                    <condition class="com.rapidminer.operator.learner.tree.GreaterSplitCondition" id="286">
+                      <attributeName>REN_T-1</attributeName>
+                      <value>4.35</value>
+                    </condition>
+                    <child id="287">
+                      <label>1</label>
+                      <children class="linked-list" id="288"/>
+                      <counterMap class="linked-hash-map" id="289">
+                        <entry>
+                          <string>0</string>
+                          <int>23</int>
+                        </entry>
+                        <entry>
+                          <string>1</string>
+                          <int>62</int>
+                        </entry>
+                      </counterMap>
+                    </child>
+                  </com.rapidminer.operator.learner.tree.Edge>
+                  <com.rapidminer.operator.learner.tree.Edge id="290">
+                    <condition class="com.rapidminer.operator.learner.tree.LessEqualsSplitCondition" id="291">
+                      <attributeName>REN_T-1</attributeName>
+                      <value>4.35</value>
+                    </condition>
+                    <child id="292">
+                      <children class="linked-list" id="293">
+                        <com.rapidminer.operator.learner.tree.Edge id="294">
+                          <condition class="com.rapidminer.operator.learner.tree.GreaterSplitCondition" id="295">
+                            <attributeName>SALDO_T-2</attributeName>
+                            <value>370595.05</value>
+                          </condition>
+                          <child id="296">
+                            <children class="linked-list" id="297">
+                              <com.rapidminer.operator.learner.tree.Edge id="298">
+                                <condition class="com.rapidminer.operator.learner.tree.GreaterSplitCondition" id="299">
+                                  <attributeName>REN_T-1</attributeName>
+                                  <value>3.0700000000000003</value>
+                                </condition>
+                                <child id="300">
+                                  <children class="linked-list" id="301">
+                                    <com.rapidminer.operator.learner.tree.Edge id="302">
+                                      <condition class="com.rapidminer.operator.learner.tree.GreaterSplitCondition" id="303">
+                                        <attributeName>ED</attributeName>
+                                        <value>59.0</value>
+                                      </condition>
+                                      <child id="304">
+                                        <label>1</label>
+                                        <children class="linked-list" id="305"/>
+                                        <counterMap class="linked-hash-map" id="306">
+                                          <entry>
+                                            <string>0</string>
+                                            <int>0</int>
+                                          </entry>
+                                          <entry>
+                                            <string>1</string>
+                                            <int>3</int>
+                                          </entry>
+                                        </counterMap>
+                                      </child>
+                                    </com.rapidminer.operator.learner.tree.Edge>
+                                    <com.rapidminer.operator.learner.tree.Edge id="307">
+                                      <condition class="com.rapidminer.operator.learner.tree.LessEqualsSplitCondition" id="308">
+                                        <attributeName>ED</attributeName>
+                                        <value>59.0</value>
+                                      </condition>
+                                      <child id="309">
+                                        <children class="linked-list" id="310">
+                                          <com.rapidminer.operator.learner.tree.Edge id="311">
+                                            <condition class="com.rapidminer.operator.learner.tree.GreaterSplitCondition" id="312">
+                                              <attributeName>RENTA</attributeName>
+                                              <value>360.5</value>
+                                            </condition>
+                                            <child id="313">
+                                              <label>0</label>
+                                              <children class="linked-list" id="314"/>
+                                              <counterMap class="linked-hash-map" id="315">
+                                                <entry>
+                                                  <string>0</string>
+                                                  <int>15</int>
+                                                </entry>
+                                                <entry>
+                                                  <string>1</string>
+                                                  <int>6</int>
+                                                </entry>
+                                              </counterMap>
+                                            </child>
+                                          </com.rapidminer.operator.learner.tree.Edge>
+                                          <com.rapidminer.operator.learner.tree.Edge id="316">
+                                            <condition class="com.rapidminer.operator.learner.tree.LessEqualsSplitCondition" id="317">
+                                              <attributeName>RENTA</attributeName>
+                                              <value>360.5</value>
+                                            </condition>
+                                            <child id="318">
+                                              <label>1</label>
+                                              <children class="linked-list" id="319"/>
+                                              <counterMap class="linked-hash-map" id="320">
+                                                <entry>
+                                                  <string>0</string>
+                                                  <int>0</int>
+                                                </entry>
+                                                <entry>
+                                                  <string>1</string>
+                                                  <int>2</int>
+                                                </entry>
+                                              </counterMap>
+                                            </child>
+                                          </com.rapidminer.operator.learner.tree.Edge>
+                                        </children>
+                                        <counterMap class="linked-hash-map" id="321"/>
+                                      </child>
+                                    </com.rapidminer.operator.learner.tree.Edge>
+                                  </children>
+                                  <counterMap class="linked-hash-map" id="322"/>
+                                </child>
+                              </com.rapidminer.operator.learner.tree.Edge>
+                              <com.rapidminer.operator.learner.tree.Edge id="323">
+                                <condition class="com.rapidminer.operator.learner.tree.LessEqualsSplitCondition" id="324">
+                                  <attributeName>REN_T-1</attributeName>
+                                  <value>3.0700000000000003</value>
+                                </condition>
+                                <child id="325">
+                                  <label>0</label>
+                                  <children class="linked-list" id="326"/>
+                                  <counterMap class="linked-hash-map" id="327">
+                                    <entry>
+                                      <string>0</string>
+                                      <int>482</int>
+                                    </entry>
+                                    <entry>
+                                      <string>1</string>
+                                      <int>25</int>
+                                    </entry>
+                                  </counterMap>
+                                </child>
+                              </com.rapidminer.operator.learner.tree.Edge>
+                            </children>
+                            <counterMap class="linked-hash-map" id="328"/>
+                          </child>
+                        </com.rapidminer.operator.learner.tree.Edge>
+                        <com.rapidminer.operator.learner.tree.Edge id="329">
+                          <condition class="com.rapidminer.operator.learner.tree.LessEqualsSplitCondition" id="330">
+                            <attributeName>SALDO_T-2</attributeName>
+                            <value>370595.05</value>
+                          </condition>
+                          <child id="331">
+                            <label>0</label>
+                            <children class="linked-list" id="332"/>
+                            <counterMap class="linked-hash-map" id="333">
+                              <entry>
+                                <string>0</string>
+                                <int>75</int>
+                              </entry>
+                              <entry>
+                                <string>1</string>
+                                <int>51</int>
+                              </entry>
+                            </counterMap>
+                          </child>
+                        </com.rapidminer.operator.learner.tree.Edge>
+                      </children>
+                      <counterMap class="linked-hash-map" id="334"/>
+                    </child>
+                  </com.rapidminer.operator.learner.tree.Edge>
+                </children>
+                <counterMap class="linked-hash-map" id="335"/>
+              </child>
+            </com.rapidminer.operator.learner.tree.Edge>
+            <com.rapidminer.operator.learner.tree.Edge id="336">
+              <condition class="com.rapidminer.operator.learner.tree.LessEqualsSplitCondition" id="337">
+                <attributeName>SALDO_T</attributeName>
+                <value>1511.65</value>
+              </condition>
+              <child id="338">
+                <children class="linked-list" id="339">
+                  <com.rapidminer.operator.learner.tree.Edge id="340">
+                    <condition class="com.rapidminer.operator.learner.tree.GreaterSplitCondition" id="341">
+                      <attributeName>SALDO_T</attributeName>
+                      <value>-5269.9349999999995</value>
+                    </condition>
+                    <child id="342">
+                      <label>1</label>
+                      <children class="linked-list" id="343"/>
+                      <counterMap class="linked-hash-map" id="344">
+                        <entry>
+                          <string>0</string>
+                          <int>19</int>
+                        </entry>
+                        <entry>
+                          <string>1</string>
+                          <int>457</int>
+                        </entry>
+                      </counterMap>
+                    </child>
+                  </com.rapidminer.operator.learner.tree.Edge>
+                  <com.rapidminer.operator.learner.tree.Edge id="345">
+                    <condition class="com.rapidminer.operator.learner.tree.LessEqualsSplitCondition" id="346">
+                      <attributeName>SALDO_T</attributeName>
+                      <value>-5269.9349999999995</value>
+                    </condition>
+                    <child id="347">
+                      <children class="linked-list" id="348">
+                        <com.rapidminer.operator.learner.tree.Edge id="349">
+                          <condition class="com.rapidminer.operator.learner.tree.GreaterSplitCondition" id="350">
+                            <attributeName>TRX_T</attributeName>
+                            <value>28.0</value>
+                          </condition>
+                          <child id="351">
+                            <label>0</label>
+                            <children class="linked-list" id="352"/>
+                            <counterMap class="linked-hash-map" id="353">
+                              <entry>
+                                <string>0</string>
+                                <int>6</int>
+                              </entry>
+                              <entry>
+                                <string>1</string>
+                                <int>0</int>
+                              </entry>
+                            </counterMap>
+                          </child>
+                        </com.rapidminer.operator.learner.tree.Edge>
+                        <com.rapidminer.operator.learner.tree.Edge id="354">
+                          <condition class="com.rapidminer.operator.learner.tree.LessEqualsSplitCondition" id="355">
+                            <attributeName>TRX_T</attributeName>
+                            <value>28.0</value>
+                          </condition>
+                          <child id="356">
+                            <children class="linked-list" id="357">
+                              <com.rapidminer.operator.learner.tree.Edge id="358">
+                                <condition class="com.rapidminer.operator.learner.tree.GreaterSplitCondition" id="359">
+                                  <attributeName>TRX_T-2</attributeName>
+                                  <value>7.0</value>
+                                </condition>
+                                <child id="360">
+                                  <label>1</label>
+                                  <children class="linked-list" id="361"/>
+                                  <counterMap class="linked-hash-map" id="362">
+                                    <entry>
+                                      <string>0</string>
+                                      <int>4</int>
+                                    </entry>
+                                    <entry>
+                                      <string>1</string>
+                                      <int>13</int>
+                                    </entry>
+                                  </counterMap>
+                                </child>
+                              </com.rapidminer.operator.learner.tree.Edge>
+                              <com.rapidminer.operator.learner.tree.Edge id="363">
+                                <condition class="com.rapidminer.operator.learner.tree.LessEqualsSplitCondition" id="364">
+                                  <attributeName>TRX_T-2</attributeName>
+                                  <value>7.0</value>
+                                </condition>
+                                <child id="365">
+                                  <label>0</label>
+                                  <children class="linked-list" id="366"/>
+                                  <counterMap class="linked-hash-map" id="367">
+                                    <entry>
+                                      <string>0</string>
+                                      <int>5</int>
+                                    </entry>
+                                    <entry>
+                                      <string>1</string>
+                                      <int>0</int>
+                                    </entry>
+                                  </counterMap>
+                                </child>
+                              </com.rapidminer.operator.learner.tree.Edge>
+                            </children>
+                            <counterMap class="linked-hash-map" id="368"/>
+                          </child>
+                        </com.rapidminer.operator.learner.tree.Edge>
+                      </children>
+                      <counterMap class="linked-hash-map" id="369"/>
+                    </child>
+                  </com.rapidminer.operator.learner.tree.Edge>
+                </children>
+                <counterMap class="linked-hash-map" id="370"/>
+              </child>
+            </com.rapidminer.operator.learner.tree.Edge>
+          </children>
+          <counterMap class="linked-hash-map" id="371"/>
+        </root>
+      </default>
+    </TreeModel>
+  </TreeModel>
+</object-stream>

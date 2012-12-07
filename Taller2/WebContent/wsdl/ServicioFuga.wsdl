@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://controlador.taller.in73j.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://controlador.taller.in73j.com" xmlns:intf="http://controlador.taller.in73j.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://controlador.taller.in73j.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="isFuga">
+    <complexType>
+     <sequence>
+      <element name="idCliente" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="isFugaResponse">
+    <complexType>
+     <sequence>
+      <element name="isFugaReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="isFugaResponse">
+
+      <wsdl:part element="impl:isFugaResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="isFugaRequest">
+
+      <wsdl:part element="impl:isFuga" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="ServicioFuga">
+
+      <wsdl:operation name="isFuga">
+
+         <wsdl:input message="impl:isFugaRequest" name="isFugaRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:isFugaResponse" name="isFugaResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="ServicioFugaSoapBinding" type="impl:ServicioFuga">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="isFuga">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="isFugaRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="isFugaResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="ServicioFugaService">
+
+      <wsdl:port binding="impl:ServicioFugaSoapBinding" name="ServicioFuga">
+
+         <wsdlsoap:address location="http://localhost:8080/IN73JTaller/services/ServicioFuga"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

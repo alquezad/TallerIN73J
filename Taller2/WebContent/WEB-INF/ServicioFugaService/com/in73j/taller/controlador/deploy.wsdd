@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from ServicioFugaService WSDL service -->
+
+  <service name="ServicioFuga" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://controlador.taller.in73j.com"/>
+      <parameter name="wsdlServiceElement" value="ServicioFugaService"/>
+      <parameter name="schemaQualified" value="http://controlador.taller.in73j.com"/>
+      <parameter name="wsdlServicePort" value="ServicioFuga"/>
+      <parameter name="className" value="com.in73j.taller.controlador.ServicioFuga"/>
+      <parameter name="wsdlPortType" value="ServicioFuga"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://controlador.taller.in73j.com" xmlns:retNS="http://controlador.taller.in73j.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="isFuga" qname="operNS:isFuga" returnQName="retNS:isFugaReturn" returnType="rtns:int" soapAction="">
+        <parameter xmlns:pns="http://controlador.taller.in73j.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:idCliente" type="tns:int"/>
+      </operation>
+      <parameter name="allowedMethods" value="isFuga"/>
+
+  </service>
+</deployment>

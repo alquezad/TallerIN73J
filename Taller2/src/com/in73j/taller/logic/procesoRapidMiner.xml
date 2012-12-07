@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process version="5.2.008">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="5.2.008" expanded="true" name="Process">
+    <process expanded="true" height="341" width="681">
+      <operator activated="true" class="read_xml" compatibility="5.2.008" expanded="true" height="60" name="Read XML" width="90" x="45" y="120">
+        <parameter key="file" value="instance.xml"/>
+        <parameter key="xpath_for_examples" value="cliente"/>
+        <enumeration key="xpaths_for_attributes">
+          <parameter key="xpath_for_attribute" value="Cod_Cliente/@value"/>
+          <parameter key="xpath_for_attribute" value="COD_OFI/@value"/>
+          <parameter key="xpath_for_attribute" value="COM/@value"/>
+          <parameter key="xpath_for_attribute" value="ED/@value"/>
+          <parameter key="xpath_for_attribute" value="SX/@value"/>
+          <parameter key="xpath_for_attribute" value="NIV_EDUC/@value"/>
+          <parameter key="xpath_for_attribute" value="RENTA/@value"/>
+          <parameter key="xpath_for_attribute" value="E_CIVIL/@value"/>
+          <parameter key="xpath_for_attribute" value="VIG/@value"/>
+          <parameter key="xpath_for_attribute" value="TRX_T/@value"/>
+          <parameter key="xpath_for_attribute" value="TRX_T-1/@value"/>
+          <parameter key="xpath_for_attribute" value="TRX_T-2/@value"/>
+          <parameter key="xpath_for_attribute" value="SALDO_T-5/@value"/>
+          <parameter key="xpath_for_attribute" value="SALDO_T-4/@value"/>
+          <parameter key="xpath_for_attribute" value="SALDO_T-3/@value"/>
+          <parameter key="xpath_for_attribute" value="SALDO_T-2/@value"/>
+          <parameter key="xpath_for_attribute" value="SALDO_T-1/@value"/>
+          <parameter key="xpath_for_attribute" value="SALDO_T/@value"/>
+          <parameter key="xpath_for_attribute" value="REN_T/@value"/>
+          <parameter key="xpath_for_attribute" value="REN_T-1/@value"/>
+          <parameter key="xpath_for_attribute" value="REN_T-2/@value"/>
+          <parameter key="xpath_for_attribute" value="REN_T-3/@value"/>
+          <parameter key="xpath_for_attribute" value="REN_T-4/@value"/>
+          <parameter key="xpath_for_attribute" value="CERRO/@value"/>
+        </enumeration>
+        <list key="namespaces"/>
+        <parameter key="use_default_namespace" value="false"/>
+        <list key="annotations"/>
+        <list key="data_set_meta_data_information">
+          <parameter key="0" value="Cod_Cliente/@value.true.integer.attribute"/>
+          <parameter key="1" value="COD_OFI/@value.true.integer.attribute"/>
+          <parameter key="2" value="COM/@value.true.integer.attribute"/>
+          <parameter key="3" value="ED/@value.true.integer.attribute"/>
+          <parameter key="4" value="SX/@value.true.binominal.attribute"/>
+          <parameter key="5" value="NIV_EDUC/@value.true.binominal.attribute"/>
+          <parameter key="6" value="RENTA/@value.true.integer.attribute"/>
+          <parameter key="7" value="E_CIVIL/@value.true.binominal.attribute"/>
+          <parameter key="8" value="VIG/@value.true.integer.attribute"/>
+          <parameter key="9" value="TRX_T/@value.true.integer.attribute"/>
+          <parameter key="10" value="TRX_T-1/@value.true.integer.attribute"/>
+          <parameter key="11" value="TRX_T-2/@value.true.integer.attribute"/>
+          <parameter key="12" value="SALDO_T-5/@value.true.binominal.attribute"/>
+          <parameter key="13" value="SALDO_T-4/@value.true.binominal.attribute"/>
+          <parameter key="14" value="SALDO_T-3/@value.true.integer.attribute"/>
+          <parameter key="15" value="SALDO_T-2/@value.true.binominal.attribute"/>
+          <parameter key="16" value="SALDO_T-1/@value.true.binominal.attribute"/>
+          <parameter key="17" value="SALDO_T/@value.true.binominal.attribute"/>
+          <parameter key="18" value="REN_T/@value.true.binominal.attribute"/>
+          <parameter key="19" value="REN_T-1/@value.true.binominal.attribute"/>
+          <parameter key="20" value="REN_T-2/@value.true.binominal.attribute"/>
+          <parameter key="21" value="REN_T-3/@value.true.binominal.attribute"/>
+          <parameter key="22" value="REN_T-4/@value.true.binominal.attribute"/>
+          <parameter key="23" value="CERRO/@value.true.binominal.attribute"/>
+        </list>
+      </operator>
+      <operator activated="true" class="read_model" compatibility="5.2.008" expanded="true" height="60" name="Read Model" width="90" x="313" y="30">
+        <parameter key="model_file" value="modelo.xml"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="5.2.008" expanded="true" height="76" name="Rename" width="90" x="179" y="120">
+        <parameter key="old_name" value="CERRO/@value"/>
+        <parameter key="new_name" value="CERRO"/>
+        <list key="rename_additional_attributes">
+          <parameter key="Cod_Cliente/@value" value="Cod_Cliente"/>
+          <parameter key="COD_OFI/@value" value="COD_OFI"/>
+          <parameter key="COM/@value" value="COM"/>
+          <parameter key="ED/@value" value="ED"/>
+          <parameter key="SX/@value" value="SX"/>
+          <parameter key="NIV_EDUC/@value" value="NIV_EDUC"/>
+          <parameter key="RENTA/@value" value="RENTA"/>
+          <parameter key="E_CIVIL/@value" value="E_CIVIL"/>
+          <parameter key="VIG/@value" value="VIG"/>
+          <parameter key="TRX_T/@value" value="TRX_T"/>
+          <parameter key="TRX_T-1/@value" value="TRX_T-1"/>
+          <parameter key="TRX_T-2/@value" value="TRX_T-2"/>
+          <parameter key="SALDO_T-5/@value" value="SALDO_T-5"/>
+          <parameter key="SALDO_T-4/@value" value="SALDO_T-4"/>
+          <parameter key="SALDO_T-3/@value" value="SALDO_T-3"/>
+          <parameter key="SALDO_T-2/@value" value="SALDO_T-2"/>
+          <parameter key="SALDO_T-1/@value" value="SALDO_T-1"/>
+          <parameter key="SALDO_T/@value" value="SALDO_T"/>
+          <parameter key="REN_T/@value" value="REN_T"/>
+          <parameter key="REN_T-1/@value" value="REN_T-1"/>
+          <parameter key="REN_T-2/@value" value="REN_T-2"/>
+          <parameter key="REN_T-3/@value" value="REN_T-3"/>
+          <parameter key="REN_T-4/@value" value="REN_T-4"/>
+        </list>
+      </operator>
+      <operator activated="true" class="set_role" compatibility="5.2.008" expanded="true" height="76" name="Set Role" width="90" x="313" y="120">
+        <parameter key="name" value="Cod_Cliente"/>
+        <parameter key="target_role" value="id"/>
+        <list key="set_additional_roles">
+          <parameter key="CERRO" value="label"/>
+        </list>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="5.2.008" expanded="true" height="76" name="Apply Model" width="90" x="447" y="30">
+        <list key="application_parameters"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="5.2.008" expanded="true" height="76" name="Select Attributes" width="90" x="581" y="30">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attributes" value="|Cod_Cliente|prediction(CERRO)"/>
+      </operator>
+      <connect from_op="Read XML" from_port="output" to_op="Rename" to_port="example set input"/>
+      <connect from_op="Read Model" from_port="output" to_op="Apply Model" to_port="model"/>
+      <connect from_op="Rename" from_port="example set output" to_op="Set Role" to_port="example set input"/>
+      <connect from_op="Set Role" from_port="example set output" to_op="Apply Model" to_port="unlabelled data"/>
+      <connect from_op="Apply Model" from_port="labelled data" to_op="Select Attributes" to_port="example set input"/>
+      <connect from_op="Select Attributes" from_port="example set output" to_port="result 1"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+    </process>
+  </operator>
+</process>
